@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family:cursive, 'sans-serif';
+    background-color: rgb(214, 239, 222);
+}
+
+.header {
+    background: linear-gradient(90deg, rgb(50, 71, 39), rgb(82, 134, 82));
+    padding: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+button {
+    float: left;
+    margin-top: 10px;
+    border-radius: 40%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(82, 134, 82);
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition:  0.3s ease-in-out;
+}
+
+button > a {
+    color: aliceblue;
+}
+
+button > a:hover {
+    color: rgb(57, 99, 59);
+    transition: 0.3s ease-in-out;
+}
+
+ul {
+    list-style: inside;
+    padding: 30px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(1, 109, 73);
+}
+
+a:hover {
+    color: rgb(122, 99, 99);
+}
+
+#pizza-img, #pâtes-img {
+    width: auto;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#riz-img {
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+
+.description {
+    margin: 15px;
+    text-align: justify;
+}
+
+.description > h2 {
+    margin-bottom: 10px;
+}
+
+.ingrédients {
+    margin: 30px 30px 0 30px;
+}
+
+.ingrédients > ul {
+    list-style: square;
+}
+
+.etapes {
+    margin: 0 30px 0 30px;
+    text-align: justify;
+}
+
+.etapes > h2 {
+    margin-bottom: 10px;
+} 
+
+.etapes > ol {
+    line-height: 25px;
+    list-style: upper-roman;
+}
